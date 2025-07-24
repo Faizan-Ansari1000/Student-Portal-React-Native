@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const ApiInstance = axios.create({
-    baseURL: 'https://student-portal-backend-nine.vercel.app',
+    baseURL: '',
 })
 
 export default ApiInstance;
